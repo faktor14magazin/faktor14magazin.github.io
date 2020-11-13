@@ -2730,6 +2730,18 @@ input, select, textarea {
 
 		}
 
+/* Single Articles */
+	#single {
+		margin: auto;
+	}
+
+	@media (min-width: 992px) {
+		#single {
+			margin: auto;
+			width: 75%;
+		}
+	}
+
 /* Post */
 
 	.post {
