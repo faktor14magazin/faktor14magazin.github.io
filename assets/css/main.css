@@ -2730,18 +2730,6 @@ input, select, textarea {
 
 		}
 
-/* Single Articles */
-	#single {
-		margin: auto;
-	}
-
-	@media (min-width: 992px) {
-		#single {
-			margin: auto;
-			width: 75%;
-		}
-	}
-
 /* Post */
 
 	.post {
@@ -3048,6 +3036,18 @@ input, select, textarea {
 		line-height: 2.5;
 		margin-top: -1em;
 		text-transform: uppercase;
+	}
+
+/* Single Articles */
+	#single {
+		margin: auto;
+	}
+
+	@media (min-width: 992px) {
+		#single {
+			margin: auto;
+			width: 70%;
+		}
 	}
 
 /* Table */
