@@ -2293,6 +2293,10 @@ input, select, textarea {
 			display: block;
 		}
 
+		.image.card {
+			max-width: 70%;
+		}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
@@ -2579,11 +2583,6 @@ input, select, textarea {
 	  margin: auto;
 	  width: fit-content;
   }
-
-  .card-1 img {
-	  max-width: 400px;
-  }
-
 /* Posts */
 
 	ul.posts {
