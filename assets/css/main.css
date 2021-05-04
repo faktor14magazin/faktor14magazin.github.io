@@ -2581,7 +2581,7 @@ input, select, textarea {
   }
 
   .card-1 img {
-	  max-width: 400;
+	  max-width: 400px;
   }
 
 /* Posts */
