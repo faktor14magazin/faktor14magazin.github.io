@@ -2294,7 +2294,7 @@ input, select, textarea {
 		}
 
 		.image.card {
-			max-width: 70%;
+			max-width: 400px;
 		}
 
 		.image.left, .image.right {
