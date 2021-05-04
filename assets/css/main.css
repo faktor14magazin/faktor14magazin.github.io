@@ -2580,6 +2580,10 @@ input, select, textarea {
 	  width: fit-content;
   }
 
+  .card-1 img {
+	  width: 100%;
+  }
+
 /* Posts */
 
 	ul.posts {
