@@ -2293,10 +2293,6 @@ input, select, textarea {
 			display: block;
 		}
 
-		.image.card {
-			max-width: 60%;
-		}
-
 		.image.left, .image.right {
 			max-width: 40%;
 		}
