@@ -3550,7 +3550,7 @@ body.single #wrapper {
   overflow: hidden;
   position: relative;
   width: 6em;
-  margin: 0 0 1.5em 0;  /* Added more space below */
+  margin: 0 0 2.5em 0;  /* Added more space below */
 }
 
 #intro .logo:before {
