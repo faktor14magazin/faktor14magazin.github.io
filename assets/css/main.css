@@ -3550,6 +3550,7 @@ body.single #wrapper {
   overflow: hidden;
   position: relative;
   width: 6em;
+  margin: 0 0 1.5em 0;  /* Added more space below */
 }
 
 #intro .logo:before {
@@ -3569,7 +3570,7 @@ body.single #wrapper {
 #intro .logo img {
   display: block;
   margin-left: -0.25em;
-  width: 4.5em;
+  width: 6.5em;
 }
 
 #intro header h2 {
