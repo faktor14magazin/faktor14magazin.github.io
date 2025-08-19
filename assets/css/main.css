@@ -3546,30 +3546,19 @@ body.single #wrapper {
 #intro .logo {
   border-bottom: 0;
   display: inline-block;
-  margin: 0 0 1em 0;
-  overflow: hidden;
+  margin: 0 0 2.5em 0;
+  overflow: visible; /* Changed from hidden */
   position: relative;
   width: 6em;
-  margin: 0 0 2.5em 0;  /* Added more space below */
-}
-
-#intro .logo:before {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100px' height='100px' viewBox='0 0 100 100' preserveAspectRatio='none' zoomAndPan='disable'%3E%3Cpolygon points='0,0 100,0 100,25 50,0 0,25' style='fill:%23f4f4f4' /%3E%3Cpolygon points='0,100 100,100 100,75 50,100 0,75' style='fill:%23f4f4f4' /%3E%3C/svg%3E");
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  content: "";
-  display: block;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
+  /* Optional: Add rectangular styling below */
+  background: transparent;
+  border: none; /* Or add a border */
+  border-radius: 0; /* Ensure sharp corners */
 }
 
 #intro .logo img {
   display: block;
-  margin-left: -0.25em;
+  margin-left: 0; /* Reset alignment */
   width: 6.5em;
 }
 
